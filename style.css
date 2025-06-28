@@ -1,0 +1,25 @@
+.nav-logo {
+    width: 200px;
+}
+
+.nav-left {
+    margin-left: 75px;
+}
+
+.nav-right {
+    margin-right: 90px;
+    margin-bottom: 4px;
+}
+
+nav.navbar {
+    background-color: #0b1d81 !important;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.arabic {
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+}
