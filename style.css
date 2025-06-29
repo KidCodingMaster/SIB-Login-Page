@@ -1,3 +1,7 @@
+body {
+    overflow: hidden
+}
+
 .nav-logo {
     width: 200px;
 }
@@ -22,4 +26,131 @@ nav.navbar {
     color: white;
     font-family: "Rubik", sans-serif;
     font-size: 14px;
+}
+
+.background {
+    img {
+        width: calc(100vh + 380px);
+        height: calc(100vh - 280px);
+    }
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+
+    * {
+        position: absolute;
+    }
+
+    .background {
+        position: absolute;
+        background-image: url("https://online.sib.ae/node_modules/speedboat_ui/images/sb_images/bg-banner-login.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 80vh;
+    }
+}
+
+.login {
+    background-color: white;
+    width: 408px;
+    height: 333px;
+    margin-top: 60px;
+    border-radius: 4px;
+    display: flex;
+}
+
+.login-text {
+    color: #0b1d81;
+    opacity: 0.87;
+    font-weight: 600;
+    font-size: 24px;
+    font-family: "Rubik", sans-serif;
+    margin-top: 32px;
+    margin-left: 32px;
+    cursor: pointer;
+}
+
+.personal-btn {
+    margin-top: 80px;
+    margin-left: 40px;
+    background-color: #2121;
+    font-weight: 400 !important;
+    font-family: 'Roboto', 'Noto', sans-serif !important;
+}
+
+.business-btn {
+    margin-top: 80px;
+    margin-left: 210px;
+    border: 1px solid #c3c8ea !important;
+}
+
+.login-type-btn {
+    height: 40px;
+    width: 137px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 100;
+    border-radius: 3px;
+    border: 2px solid #0b1d81;
+    color: #0b1d81;
+}
+
+.user-id-input {
+    margin-top: 160px;
+    margin-left: 40px;
+
+    input {
+        border: none;
+        background: none;
+        border-bottom: 1px solid rgba(11, 29, 129, 0.48);
+        width: 320px;
+    }
+
+    img {
+        margin-left: 290px;
+    }
+}
+
+.forgot-id {
+    margin-top: 200px;
+    margin-left: 290px;
+    white-space: nowrap;
+
+    span {
+        font-family: "Rubik", sans-serif;
+        font-size: 14px;
+        color: #0b1d81;
+    }
+}
+
+.secure-login {
+    margin-top: 230px;
+    margin-left: 40px;
+    white-space: nowrap;
+
+    button {
+        width: 320px;
+        height: 50px;
+        border-radius: 50px;
+        border: none;
+        background: linear-gradient(90deg, #0b1d81 15%, #1a3eb7 100%);
+        color: white;
+    }
+}
+
+.no-account {
+    margin-top: 300px;
+    margin-left: 100px;
+    white-space: nowrap;
+
+    .no-account-text {
+        color: #0b1d81;
+    }
+}
+
+.link {
+    color: #0061ff !important;
 }
